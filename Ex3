@@ -1,0 +1,10 @@
+// Напишите программу, которая определяет, является ли число четным
+
+Console.Clear();
+
+Console.Write("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+float result = number % 2;
+
+if (result == 0) Console.WriteLine("Четное!");
+else Console.WriteLine("Нечетное!");
